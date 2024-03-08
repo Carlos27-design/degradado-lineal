@@ -1,0 +1,14 @@
+.caja {
+  /* linear-gradient nos permite generar una imagen con un degradado de colores con una dirección y colores especificados. */
+  /* repeating-linear-gradient nos permite repetir el degradado hasta cierto tamaño */
+  /* background-size nos permite asignar un nuevo valor de ancho y alto para nuestras imagenes de acuerdo al tamaño de la pantalla */
+  width: 80%;
+  height: calc(300px * 2);
+  border: 2px solid red;
+  background: repeating-linear-gradient(to right, orange, red);
+  background-size: 20px 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  line-height: calc(300px * 2);
+}
